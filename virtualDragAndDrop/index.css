@@ -1,0 +1,23 @@
+.line{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    height: 5px;
+    border-radius: 50%;
+    display: none;
+}
+
+.top-line{
+    top: 0;
+    display: block;
+}
+
+.bottom-line{
+    bottom: 0;
+    display: block;
+}
+
+.form-item-box .ant-form-item-has-error{
+    margin-bottom: 0px;
+}
