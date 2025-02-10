@@ -1,0 +1,842 @@
+{
+    "pageSize": 100000,
+    "deleteItemIds": [],
+    "deleteGroupIds": [],
+    "appId": "site-pro",
+    "tenantId": "558f236ef19a4f559126a78c00255250",
+    "busGroupId": null,
+    "timeZone": "+1",
+    "pageIndex": 1,
+    "pageMode": false,
+    "readOnly": false,
+    "versionName": "1",
+    "versionCode": "1",
+    "forceCoverDraft": false,
+    "changeCode": "Select",
+    "formOid": "",
+    "formBeforeRequest": "",
+    "formAfterRequest": "",
+    "formBeforeSave": "",
+    "formAfterSave": "",
+    "formSave": "",
+    "formFieldChange": "",
+    "version": 0,
+    "sourceFormId": null,
+    "repoAdmin": false,
+    "domainIndex": "",
+    "tenantIndex": "",
+    "formName": "111",
+    "groups": [
+        {
+            "_r": "_r",
+            "groupId": "0865fd522ee1412292a59f2950c2a5a0",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "8162f4c1215449189db60061a699101b",
+                    "itemCode": "Input",
+                    "itemName": "Text",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Input",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "0865fd522ee1412292a59f2950c2a5a0"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "08bedaf9d4fd4473bf6e26315ff91eb0",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "f2543ed6cfd54d80924110eadeae5ff3",
+                    "itemCode": "TextArea",
+                    "itemName": "TextArea",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "TextArea",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "08bedaf9d4fd4473bf6e26315ff91eb0"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "81ddb8a1dc1c400395668da76d68e399",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "c1c825ee050a4013aa9b0df509960a20",
+                    "itemCode": "InputNumber",
+                    "itemName": "Number",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "InputNumber",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "81ddb8a1dc1c400395668da76d68e399"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "a9f9cd61d75e499794b7cfe6f8b60f65",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "7453e55dc70f479383931d44cac59e70",
+                    "itemCode": "Upload",
+                    "itemName": "Files",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "downloadFileType": 1,
+                        "originalType": "Upload",
+                        "initialValueType": "file"
+                    },
+                    "locales": [],
+                    "groupId": "a9f9cd61d75e499794b7cfe6f8b60f65"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "f5f63f60e8314faca41b3ba0c7fddfa7",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "cf53742722b94ce9b988d30f1cdbd5de",
+                    "itemCode": "DateTimePicker",
+                    "itemName": "Time",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "DateTimePicker",
+                        "delimiter": "/",
+                        "dateTimePicker": "date",
+                        "dateTimeFormat": {
+                            "type": 1,
+                            "format": "dd-MMM-yyyy HH:mm:ss",
+                            "desc": "日-月-年 时:分:秒",
+                            "code": "format_eleven"
+                        },
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "f5f63f60e8314faca41b3ba0c7fddfa7"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "6bfc437399954a75993b95f2221839db",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "34e03414a3ff447f943a2a6c5bfe65a9",
+                    "itemCode": "Radio",
+                    "itemName": "Radio",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "dictItemAlign": "vertical",
+                        "originalType": "Radio",
+                        "rangeValue": {
+                            "dict": 2
+                        },
+                        "initialValueType": null,
+                        "dictionaryTypeStyle": 1,
+                        "dictionaryType": 1,
+                        "dictionaryId": null
+                    },
+                    "locales": [],
+                    "groupId": "6bfc437399954a75993b95f2221839db",
+                    "initialValue": null
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "77736b2604894fbda6092d6b11050dda",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "3757defcd0364e7eadb5b57e5b861c7d",
+                    "itemCode": "Checkbox",
+                    "itemName": "CheckBox",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "dictItemAlign": "vertical",
+                        "originalType": "Checkbox",
+                        "dictionaryType": 1,
+                        "initialValueType": "dict",
+                        "dictionaryId": null,
+                        "rangeValue": {
+                            "dict": 2
+                        },
+                        "dictionaryTypeStyle": 1
+                    },
+                    "locales": [],
+                    "groupId": "77736b2604894fbda6092d6b11050dda",
+                    "initialValue": null
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "8a9d472810784f4cbf3f758752e80907",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "c57ee4031eb34dbf8426bd05f50bef25",
+                    "itemCode": "Select",
+                    "itemName": "Droplist",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Select",
+                        "dictionaryType": 1,
+                        "initialValueType": "dict",
+                        "dictionaryId": null,
+                        "rangeValue": {
+                            "dict": 2
+                        },
+                        "dictionaryTypeStyle": 1
+                    },
+                    "locales": [],
+                    "groupId": "8a9d472810784f4cbf3f758752e80907",
+                    "initialValue": null
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "22fd13aef19942e2a73b8d19d51e8153",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "4fca9ce098a247d98f3d5e90d174034a",
+                    "itemCode": "Cascader",
+                    "itemName": "Cascader",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Cascader",
+                        "cascader": {
+                            "cascaderDictType": 1,
+                            "cascaderDict": 2
+                        }
+                    },
+                    "locales": [],
+                    "groupId": "22fd13aef19942e2a73b8d19d51e8153"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "3f60514fb1bb4531945e79b6c95b79bc",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "4c243aa07ba744be86ed4c7111e2967b",
+                    "itemCode": "TreeSelect",
+                    "itemName": "TreeSelect",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "TreeSelect",
+                        "cascader": {
+                            "cascaderDictType": 1,
+                            "cascaderDict": 2
+                        }
+                    },
+                    "locales": [],
+                    "groupId": "3f60514fb1bb4531945e79b6c95b79bc"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "f2a7d24ac9a145a88eabb1318499656e",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "509e5674f1ad47c69b5790740c71a1c9",
+                    "itemCode": "UserSelect",
+                    "itemName": "UserSelect",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "UserSelect",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "f2a7d24ac9a145a88eabb1318499656e"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "c533f11d857442beb7fe85990238cb35",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "1422446726f4466f96bd04a63bbb518b",
+                    "itemCode": "Department",
+                    "itemName": "Department",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Department",
+                        "deptRange": "all",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "c533f11d857442beb7fe85990238cb35"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "e90e75e537964babade1b57051de5de0",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "5119490f93f64613a604cc14b69e1c7d",
+                    "itemCode": "Blank",
+                    "itemName": "Placeholder",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Blank"
+                    },
+                    "locales": [],
+                    "groupId": "e90e75e537964babade1b57051de5de0"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "89824c520d78424da32c28654b4f34de",
+            "groupName": "Table",
+            "groupCode": "MultipleGroup",
+            "groupStatus": 1,
+            "groupType": 2,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "305eac93c0114d26a8ebdffa31b13f29",
+                    "itemCode": "Input",
+                    "itemName": "Text",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Input",
+                        "initialValueType": "custom"
+                    },
+                    "locales": [],
+                    "groupId": "89824c520d78424da32c28654b4f34de"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "hasAdd": true,
+                "hasDelete": true,
+                "hasEdit": true,
+                "hasOrderNumber": true,
+                "hasSubsection": true,
+                "deletionPromptsText": null,
+                "isDeletionPrompts": null,
+                "action": [
+                    {
+                        "id": "d04a02a98ffa4ccfb693d918d0d6dbfb",
+                        "name": "Add",
+                        "actionType": "COMMON",
+                        "condition": [
+                            "LOAD"
+                        ],
+                        "type": "MODAL",
+                        "unit": "percent",
+                        "size": {
+                            "width": 60,
+                            "height": 60
+                        },
+                        "url": "",
+                        "closeAction": 1,
+                        "enable": true,
+                        "origin": true,
+                        "nameType": "addNew"
+                    },
+                    {
+                        "id": "398ba139ddfb457799f697dbbc3a8d6c",
+                        "name": "Import",
+                        "actionType": "COMMON",
+                        "condition": [
+                            "LOAD"
+                        ],
+                        "type": "MODAL",
+                        "unit": "percent",
+                        "size": {
+                            "width": 60,
+                            "height": 60
+                        },
+                        "url": "",
+                        "closeAction": 1,
+                        "enable": false
+                    }
+                ],
+                "itemHideLabel": false,
+                "hasSplit": false,
+                "subRecord": false
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "6a065a8f5696445898ef5fa4a6bd481a",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "ee4f651cf4cf42b8bd65e38e920a2740",
+                    "itemCode": "Notice",
+                    "itemName": "Description",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Notice"
+                    },
+                    "locales": [],
+                    "groupId": "6a065a8f5696445898ef5fa4a6bd481a"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "2b78316a8efa4a6c88e6df9a512dc99b",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "89c55ccc718e40a3b5970b5f65184206",
+                    "itemCode": "Segment",
+                    "itemName": "Segment",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Segment",
+                        "hasSubsection": false,
+                        "hasSplit": false,
+                        "anchorConfig": {
+                            "anchorEnable": false,
+                            "anchorName": ""
+                        }
+                    },
+                    "locales": [],
+                    "groupId": "2b78316a8efa4a6c88e6df9a512dc99b"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        },
+        {
+            "_r": "_r",
+            "groupId": "45af3987862d496f9cf12261b841f4f6",
+            "groupName": "",
+            "groupCode": "SingleGroup",
+            "groupStatus": 1,
+            "groupType": 1,
+            "validateRules": [],
+            "cascadeRules": [],
+            "items": [
+                {
+                    "_r": "_r",
+                    "itemId": "520f0504bfb041689cb5440fe2dba9ab",
+                    "itemCode": "Splitline",
+                    "itemName": "Dividing",
+                    "itemSpan": 24,
+                    "itemStatus": 1,
+                    "itemReadonly": 0,
+                    "validateRules": [],
+                    "cascadeRules": [],
+                    "extraData": {
+                        "validateRules": [],
+                        "itemSpanUnit": "percent",
+                        "align": "vertical",
+                        "visiable": true,
+                        "editable": true,
+                        "itemHideLabel": false,
+                        "originalType": "Splitline",
+                        "lineType": 5
+                    },
+                    "locales": [],
+                    "groupId": "45af3987862d496f9cf12261b841f4f6"
+                }
+            ],
+            "events": {},
+            "extraData": {
+                "autoGen": true
+            },
+            "locales": []
+        }
+    ],
+    "originGroups": [],
+    "extraData": {
+        "submitBtnText": "Submit",
+        "submitBtnAlign": "right",
+        "formCache": false,
+        "formMark": false,
+        "showStyleOfMultiple": "standard",
+        "itemSpan": 24,
+        "itemSpanUnit": "percent",
+        "align": "vertical",
+        "formSectionConfig": {
+            "isOpen": false,
+            "displayMode": "right",
+            "hover": "1",
+            "sections": []
+        }
+    },
+    "currentSettingGroupIndex": 0,
+    "currentSettingItemIndex": 0,
+    "locales": [
+        {
+            "formId": "",
+            "targetId": "",
+            "locale": "en_US",
+            "i18nDetail": {
+                "extraData.submitBtnText": ""
+            }
+        }
+    ],
+    "lang": "en_US",
+    "extraLangData": {},
+    "formCascadeMap": {
+        "option": {
+            "originConfig": [],
+            "config": []
+        }
+    },
+    "enableNewOptionCascade": true,
+    "duplicateOidMap": [],
+    "hasChanged": true,
+    "draftSubmitting": false,
+    "versionDesc": "1"
+}
