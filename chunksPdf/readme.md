@@ -30,15 +30,13 @@ const SimpleExample = () => {
     if (!contentElement || !footerElement || !titleElement) return;
 
     try {
-      const pdfGenerator = new OutputPdf({
+      const pdfGenerator = await OutputPdf.create({
         element: contentElement,
         footer: footerElement,
         title: titleElement,
         filename: 'example.pdf'
       });
-
-      await pdfGenerator.initConfig();
-      await pdfGenerator.runExportPage();
+      pdfGenerator.runExportPage();
     } catch (error) {
       console.error('PDF 导出失败:', error);
     }
@@ -70,7 +68,7 @@ const RefExample = () => {
     if (!contentRef.current || !titleRef.current || !footerRef.current) return;
 
     try {
-      const pdfGenerator = new OutputPdf({
+      const pdfGenerator = await OutputPdf.create({
         element: contentRef.current,
         title: titleRef.current,
         footer: footerRef.current,
@@ -79,8 +77,7 @@ const RefExample = () => {
         baseY: 15,
       });
 
-      await pdfGenerator.initConfig();
-      await pdfGenerator.runExportPage();
+      pdfGenerator.runExportPage();
     } catch (error) {
       console.error('PDF 导出失败:', error);
     }
@@ -114,7 +111,7 @@ const PageNumberExample = () => {
     if (!contentRef.current || !titleRef.current || !footerRef.current) return;
 
     try {
-      const pdfGenerator = new OutputPdf({
+      const pdfGenerator = await OutputPdf.create({
         element: contentRef.current,
         title: titleRef.current,
         footer: footerRef.current,
@@ -127,8 +124,7 @@ const PageNumberExample = () => {
         }
       });
 
-      await pdfGenerator.initConfig();
-      await pdfGenerator.runExportPage();
+      pdfGenerator.runExportPage();
     } catch (error) {
       console.error('PDF 导出失败:', error);
     }
